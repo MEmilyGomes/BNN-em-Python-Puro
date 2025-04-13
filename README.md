@@ -18,7 +18,9 @@
 
 
 ## 🔢 Resultados Obtidos
-
+<div align="center">
+  <img src="Imagens/matriz_confusao.jpg" alt="Descrição da imagem" width="400"/>
+</div>
 
 
 ## 😁 Conclusão
