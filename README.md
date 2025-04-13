@@ -9,9 +9,22 @@
 
 
 ## 📝 Introdução
-<div style="text-align: justify"> Neste caderno 
+<p align="justify">O trabalho apresenta a construção de uma <em>Rede Neural Binária</em> (BNN) com dados de fMRI, ressonância magnética funcional. Por meio da linguagem de programação Python, sem o uso de bibliotecas que treinam modelos de aprendizado de máquina, foi desenvolvido um modelo de rede neural capaz de realizar uma classificação binária para predizer a região cerebral onde ocorreu o experimento de neuroimagem como "parietal" ou "frontal". Dessa forma, nosso trabalho consistiu em modificar uma Rede Neural de regressão — algoritmo disponibilizado pelo Prof. Dr. Daniel Cassar — para um modelo de classificação binária. Para isso, alteramos a função de perda, <em>loss</em>, para <em>cross entropy</em> e adicionamos à classe Valor o método de logaritmo natural. Além disso, foram realizadas análises de dados específicas para o modelo de classificação binária.</p>
 
 ## 🗂️ Dataset seaborn fMRI
+<p align="justify">O dataset utilizado para conseguir treinar a BNN foi o <strong>fmri</strong>, um dataset didático da biblioteca Seaborn. Os dados contidos nele são sobre um experimento de neuroimagem funcional (<strong>fMRI</strong>), e cada coluna nos indica:</p>
+
+### Tabela de Features do Dataset `fmri`
+
+| Features    | Descrição                                                                                                                                             |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `subject`   | Código identificador do participante.                                                                                                                 |
+| `timepoint` | Ponto no tempo em que a medição foi realizada – medida por TR (*repetition time*), que é o intervalo entre duas aquisições consecutivas de imagens do cérebro. |
+| `event`     | Tipo de estímulo que o participante recebeu.                                                                                                          |
+| `region`    | Região cerebral onde a medição foi feita.                                                                                                             |
+| `signal`    | Valor do sinal fMRI medido na região – a atividade cerebral registrada.                                                                               |
+
+<p align="justify">Com esses dados disponíveis, foram utilizadas como <em>features</em> as variáveis <em>timepoint</em>, <em>signal</em> e <em>event</em>; e como <em>target</em>, a variável <em>region</em>. Ou seja, a proposta é identificar se a medição foi realizada na região parietal ou frontal do cérebro.</p>
 
 
 ## 🏋️‍♀️ Construindo e Treinando a BNN
