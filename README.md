@@ -30,10 +30,10 @@
 ## 🏋️‍♀️ Construindo e Treinando a BNN
 <p align="justify">Para modificar uma <strong>CNN</strong> para uma <strong>BNN</strong> em Python puro, foi necessário realizar algumas alterações no código disponível, como incluindo métodos e mudando a avaliação de performance do modelo.</p>
 
-### Adicionando log 
+### -> Adicionando log 
 <p align="justify"> O notebook não apresentava o método de logaritmo natural na função <strong>Valor</strong>. Contudo, para conseguir realizar as operações da função de perda, seria necessário realizar essa operação e, por isso, a implementamos.</p>
 
-### Binary Cross Entropy Loss
+### -> Binary Cross Entropy Loss
 <p align="justify">Essa é uma função de perda bastante utilizada para problemas de classificação binária. Considerando um conjunto de N exemplos, a perda é calculada da seguinte forma:</p>
 
 $$
@@ -42,7 +42,7 @@ $$
 
 <p align="justify">Em que $y_i$ representa o valor real do exemplo <em>i</em> e $p_i$ é a probabilidade predita para esse exemplo, sendo um número entre 0 e 1.<sup>4</sup></p>
 
-### Acurácia
+### -> Acurácia
 <p align="justify">Essa foi a métrica escolhida para avaliar o desempenho da rede neural de classificação. A acurácia indica a razão de previsões corretas em relação ao total de amostras disponíveis no conjunto de dados. Ou seja:</p>
 
 $$
