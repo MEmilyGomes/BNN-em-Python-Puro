@@ -53,11 +53,7 @@ $$
 
 ## 🔢 Resultados Obtidos
 <div align="justify">
-Os resultados obtidos foram abaixo do esperado. Como foi criada uma rede neural com quatro camadas ocultas e o dataset é didático, esperava-se um desempenho melhor. No entanto, por ter sido implementado em Python puro, o código não é otimizado, o que ajuda a explicar os resultados pouco melhores aos de um modelo de baseline. Ainda assim, o que foi construído é bastante didático e contribui para a compreensão de todos os passos realizados por uma <em>Rede Neural Binária</em> até alcançar o <em>target</em>.
-</div>
-
-<div align="justify">
-A acurácia do modelo atingiu [bolinha], e a matriz de confusão a seguir evidencia que o modelo não apresentou boa sensibilidade aos dados.
+Os resultados obtidos foram abaixo do esperado. Como foi criada uma rede neural com quatro camadas ocultas e o dataset é didático, esperava-se um desempenho melhor. No entanto, por ter sido implementado em Python puro, o código não é otimizado, o que ajuda a explicar os resultados pouco melhores aos de um modelo de baseline. Ainda assim, o que foi construído é bastante didático e contribui para a compreensão de todos os passos realizados por uma <em>Rede Neural Binária</em> até alcançar o <em>target</em>. A acurácia do modelo atingiu 55.87%, e a matriz de confusão a seguir evidencia que o modelo não apresentou boa sensibilidade aos dados, pois os resultados preditos são semelhantes ao baseline.
 </div>
 
 <div align="center">
