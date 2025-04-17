@@ -6,6 +6,10 @@
 
 <p align="center"><strong>Autores:</strong> Maria Emily Nayla Gomes da Silva e Thomas Wolff Hannemann</p>
 <p align="center"><strong>Professor:</strong> Daniel R. Cassar</p>
+<p> </p>
+<p align="center">
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 
 ## 📝 Introdução
