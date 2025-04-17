@@ -7,13 +7,17 @@
 <p align="center"><strong>Autores:</strong> Maria Emily Nayla Gomes da Silva e Thomas Wolff Hannemann</p>
 <p align="center"><strong>Professor:</strong> Daniel R. Cassar</p>
 <p> </p>
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
 
 
-## 📝 Introdução
+## 📝 Descrição
 <p align="justify">O trabalho apresenta a construção de uma <em>Rede Neural Binária</em> (BNN) com dados de fMRI, ressonância magnética funcional. Por meio da linguagem de programação Python, sem o uso de bibliotecas que treinam modelos de aprendizado de máquina, foi desenvolvido um modelo de rede neural capaz de realizar uma classificação binária para predizer a região cerebral onde ocorreu o experimento de neuroimagem como "parietal" ou "frontal". Dessa forma, nosso trabalho consistiu em modificar uma Rede Neural de regressão — algoritmo disponibilizado pelo Prof. Dr. Daniel Cassar — para um modelo de classificação binária. Para isso, alteramos a função de perda <em>Sum of Squared Errors (SSE)</em>, para <em>cross entropy</em> e adicionamos à classe Valor o método de logaritmo natural. Além disso, foram realizadas análises de dados específicas para o modelo de classificação binária.</p>
+
+## 📔 Notebooks e arquivos do projeto
+* `Imagens`: Pasta contento figuras utilizadas no README e o código para gerar a imagem de visualização do *dataset*.
+  - `logos.jpg`: logotipos da institução na qual tal projeto foi realizado e seus vínculos (Ilum - CNPEM).
+  - `matriz_confusao.jpg`: a matriz confusão do modelo gerado. 
+* `BNN_PythonPuro.ipynb`: caderno principal do projeto, em que há a construção, treinamento, teste e resultados obtidos com a BNN.
+* `README.md`: descrição geral do projeto.
 
 ## 🗂️ Dataset seaborn fMRI
 <p align="justify">O dataset utilizado para conseguir treinar a BNN foi o <strong>fmri</strong>, um dataset didático da biblioteca Seaborn.<sup>1</sup> Os dados contidos nele são sobre um experimento de neuroimagem funcional (<strong>fMRI</strong>), e cada coluna nos indica:</p>
@@ -69,6 +73,12 @@ Os resultados obtidos foram abaixo do esperado. Como foi criada uma rede neural 
 <div align="justify">
 O notebook é bastante relevante para compreender como funciona uma <em>Rede Neural Binária</em> em Python puro, assim como para entender como é possível avaliar a performance desse tipo de modelo. Contudo, <strong>não</strong> é um código otimizado para gerar resultados relevantes em problemas de classificação binária. Além disso, todos os debates contidos neste README podem ser lidos de maneira mais detalhada no notebook disponível.
 </div>
+
+## 🖇️ Informações técnicas
+* Linguagem de programação: `Python 3.9`
+* Software:  `Jupyter Notebook`
+* Bibliotecas e Módulos: `Seaborn`, `Math`, `Numpy`, `Sklearn.metric`, `Pandas`
+<br>
 
 ## 👩‍🦳 Referências
 $1$ [**GitHub - mwaskom/seaborn-data: Data repository for seaborn examples**](https://github.com/mwaskom/seaborn-data)  
