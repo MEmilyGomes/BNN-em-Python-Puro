@@ -28,7 +28,7 @@
 
 
 ## 🏋️‍♀️ Construindo e Treinando a BNN
-<p align="justify">Para modificar uma <strong>CNN</strong> para uma <strong>BNN</strong> em Python puro, foi necessário realizar algumas alterações no código disponível, como incluindo métodos e mudando a avaliação de performance do modelo.</p>
+<p align="justify">Para modificar uma rede neural <strong>regressora</strong> para uma <strong>classificadora binária</strong> em Python puro, foi necessário realizar algumas alterações no código disponível, como incluindo métodos e mudando a avaliação de performance do modelo.</p>
 
 ### -> Adicionando log 
 <p align="justify"> O notebook não apresentava o método de logaritmo natural na função <strong>Valor</strong>. Contudo, para conseguir realizar as operações da função de perda, seria necessário realizar essa operação e, por isso, a implementamos.</p>
